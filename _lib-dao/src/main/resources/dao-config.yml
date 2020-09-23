@@ -1,0 +1,24 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+    properties:
+      hibernate:
+        format_sql: true
+        jdbc:
+          lob:
+            non_contextual_creation: true
+
+  jackson:
+    time-zone: Asia/Colombo
+            
+            
+logging:
+  level:
+    #org.springframework.web: debug
+    #org.springframework.security: debug
+    com.inova: debug
+    #org.hibernate: debug
+    

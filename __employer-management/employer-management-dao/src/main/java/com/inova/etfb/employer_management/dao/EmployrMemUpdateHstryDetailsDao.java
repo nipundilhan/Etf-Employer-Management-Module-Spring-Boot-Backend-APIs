@@ -1,0 +1,19 @@
+package com.inova.etfb.employer_management.dao;
+
+import java.util.List;
+
+import com.inova.etfb.employer_management.request.EmployerMemHistrySearchRequest;
+import com.inova.etfb.employer_management.request.EmployerMemNmneeHstrySearchRequest;
+import com.inova.etfb.employer_management.request.ViewEmployerDirectorDetailsRequest;
+import com.inova.etfb.employer_management.wrapper.EmployerMemNomineHstryRespDto;
+import com.inova.etfb.employer_management.wrapper.EmploymentUpdateHistoryDateDetailsRespDto;
+import com.inova.etfb.employer_management.wrapper.EmplyrMemContactDetailsRespDto;
+import com.inova.exception.ApplicationException;
+
+public interface EmployrMemUpdateHstryDetailsDao {
+	
+	List<EmplyrMemContactDetailsRespDto> getEmployerMemberContactHistory(EmploymentUpdateHistoryDateDetailsRespDto searchRequest,EmployerMemHistrySearchRequest searchRequest1) throws ApplicationException;
+	public List<EmployerMemNomineHstryRespDto> getEmployerMemNomineeHistory(EmploymentUpdateHistoryDateDetailsRespDto searchRequest, EmployerMemHistrySearchRequest searchRequest2) throws ApplicationException;
+	EmploymentUpdateHistoryDateDetailsRespDto getContactHistoryDetails(EmployerMemHistrySearchRequest request);
+	EmploymentUpdateHistoryDateDetailsRespDto getNomineeHistoryDetails(EmployerMemHistrySearchRequest request);
+}

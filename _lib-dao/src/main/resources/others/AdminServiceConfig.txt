@@ -1,0 +1,840 @@
+@Value("${error.mstAvailableBalanceDescription.not_exist}")
+private String mstAvailableBalanceDescriptionNotExist;
+
+
+@Value("${error.mstAvailableBalanceRefundRequestSource.not_exist}")
+private String mstAvailableBalanceRefundRequestSourceNotExist;
+
+
+@Value("${error.mstAvailableBalanceRefundRequestStatus.not_exist}")
+private String mstAvailableBalanceRefundRequestStatusNotExist;
+
+
+@Value("${error.mstAvailableBalanceRefundRequestType.not_exist}")
+private String mstAvailableBalanceRefundRequestTypeNotExist;
+
+
+@Value("${error.mstAwarenessProgramStatus.not_exist}")
+private String mstAwarenessProgramStatusNotExist;
+
+
+@Value("${error.mstAwarenessProgramType.not_exist}")
+private String mstAwarenessProgramTypeNotExist;
+
+
+@Value("${error.mstBank.not_exist}")
+private String mstBankNotExist;
+
+
+@Value("${error.mstBankBranch.not_exist}")
+private String mstBankBranchNotExist;
+
+
+@Value("${error.mstBankStatementReconciliationStatus.not_exist}")
+private String mstBankStatementReconciliationStatusNotExist;
+
+
+@Value("${error.mstBankStatementTxnOtherDepositType.not_exist}")
+private String mstBankStatementTxnOtherDepositTypeNotExist;
+
+
+@Value("${error.mstBankStatementTxnOtherWithdrawalType.not_exist}")
+private String mstBankStatementTxnOtherWithdrawalTypeNotExist;
+
+
+@Value("${error.mstBankStatementTxnType.not_exist}")
+private String mstBankStatementTxnTypeNotExist;
+
+
+@Value("${error.mstBatchDepositStatus.not_exist}")
+private String mstBatchDepositStatusNotExist;
+
+
+@Value("${error.mstBpmRole.not_exist}")
+private String mstBpmRoleNotExist;
+
+
+@Value("${error.mstBpmWorkflow.not_exist}")
+private String mstBpmWorkflowNotExist;
+
+
+@Value("${error.mstBpmWorkflowHeaderParam.not_exist}")
+private String mstBpmWorkflowHeaderParamNotExist;
+
+
+@Value("${error.mstBpmWorkflowMapping.not_exist}")
+private String mstBpmWorkflowMappingNotExist;
+
+
+@Value("${error.mstCitySuggestion.not_exist}")
+private String mstCitySuggestionNotExist;
+
+
+@Value("${error.mstCivilStatus.not_exist}")
+private String mstCivilStatusNotExist;
+
+
+@Value("${error.mstClaimChannelType.not_exist}")
+private String mstClaimChannelTypeNotExist;
+
+
+@Value("${error.mstClaimDeathInsuaranceElegibleDeciese.not_exist}")
+private String mstClaimDeathInsuaranceElegibleDecieseNotExist;
+
+
+@Value("${error.mstClaimPreLegibilityDoccument.not_exist}")
+private String mstClaimPreLegibilityDoccumentNotExist;
+
+
+@Value("${error.mstClaimSourceType.not_exist}")
+private String mstClaimSourceTypeNotExist;
+
+
+@Value("${error.mstClaimStatus.not_exist}")
+private String mstClaimStatusNotExist;
+
+
+@Value("${error.mstClaimType.not_exist}")
+private String mstClaimTypeNotExist;
+
+
+@Value("${error.mstCollectionAmendmentStatus.not_exist}")
+private String mstCollectionAmendmentStatusNotExist;
+
+
+@Value("${error.mstCollectionAmendmentType.not_exist}")
+private String mstCollectionAmendmentTypeNotExist;
+
+
+@Value("${error.mstCollectionError.not_exist}")
+private String mstCollectionErrorNotExist;
+
+
+@Value("${error.mstCollectionErrorPossible.not_exist}")
+private String mstCollectionErrorPossibleNotExist;
+
+
+@Value("${error.mstCollectionFor.not_exist}")
+private String mstCollectionForNotExist;
+
+
+@Value("${error.mstCollectionSource.not_exist}")
+private String mstCollectionSourceNotExist;
+
+
+@Value("${error.mstCollectionStatus.not_exist}")
+private String mstCollectionStatusNotExist;
+
+
+@Value("${error.mstCollectionType.not_exist}")
+private String mstCollectionTypeNotExist;
+
+
+@Value("${error.mstConfiguration.not_exist}")
+private String mstConfigurationNotExist;
+
+
+@Value("${error.mstContactType.not_exist}")
+private String mstContactTypeNotExist;
+
+
+@Value("${error.mstContactValidation.not_exist}")
+private String mstContactValidationNotExist;
+
+
+@Value("${error.mstCountry.not_exist}")
+private String mstCountryNotExist;
+
+
+@Value("${error.mstCourt.not_exist}")
+private String mstCourtNotExist;
+
+
+@Value("${error.mstCourtDs.not_exist}")
+private String mstCourtDsNotExist;
+
+
+@Value("${error.mstCourtType.not_exist}")
+private String mstCourtTypeNotExist;
+
+
+@Value("${error.mstCurrency.not_exist}")
+private String mstCurrencyNotExist;
+
+
+@Value("${error.mstDesignationSuggestion.not_exist}")
+private String mstDesignationSuggestionNotExist;
+
+
+@Value("${error.mstDisbursementSource.not_exist}")
+private String mstDisbursementSourceNotExist;
+
+
+@Value("${error.mstDisbursementStatus.not_exist}")
+private String mstDisbursementStatusNotExist;
+
+
+@Value("${error.mstDistrict.not_exist}")
+private String mstDistrictNotExist;
+
+
+@Value("${error.mstDivisionalSecretariat.not_exist}")
+private String mstDivisionalSecretariatNotExist;
+
+
+@Value("${error.mstDmuDeliveryType.not_exist}")
+private String mstDmuDeliveryTypeNotExist;
+
+
+@Value("${error.mstDmuInboundDeliveryBatchStatus.not_exist}")
+private String mstDmuInboundDeliveryBatchStatusNotExist;
+
+
+@Value("${error.mstDmuInboundStatus.not_exist}")
+private String mstDmuInboundStatusNotExist;
+
+
+@Value("${error.mstDmuOutboundDeliveryBatchStatus.not_exist}")
+private String mstDmuOutboundDeliveryBatchStatusNotExist;
+
+
+@Value("${error.mstDmuOutboundDeliveryChargeType.not_exist}")
+private String mstDmuOutboundDeliveryChargeTypeNotExist;
+
+
+@Value("${error.mstDmuOutboundDivisionScheduleStatus.not_exist}")
+private String mstDmuOutboundDivisionScheduleStatusNotExist;
+
+
+@Value("${error.mstDmuOutboundStatus.not_exist}")
+private String mstDmuOutboundStatusNotExist;
+
+
+@Value("${error.mstDmuOwnerDivisionType.not_exist}")
+private String mstDmuOwnerDivisionTypeNotExist;
+
+
+@Value("${error.mstDmuPackingType.not_exist}")
+private String mstDmuPackingTypeNotExist;
+
+
+@Value("${error.mstDocumentType.not_exist}")
+private String mstDocumentTypeNotExist;
+
+
+@Value("${error.mstDocumentTypeModule.not_exist}")
+private String mstDocumentTypeModuleNotExist;
+
+
+@Value("${error.mstDocumentTypeModuleSbu.not_exist}")
+private String mstDocumentTypeModuleSbuNotExist;
+
+
+@Value("${error.mstEmployerBranchStatus.not_exist}")
+private String mstEmployerBranchStatusNotExist;
+
+
+@Value("${error.mstEmployerCreateSourceType.not_exist}")
+private String mstEmployerCreateSourceTypeNotExist;
+
+
+@Value("${error.mstEmployerDueStatus.not_exist}")
+private String mstEmployerDueStatusNotExist;
+
+
+@Value("${error.mstEmployerDueType.not_exist}")
+private String mstEmployerDueTypeNotExist;
+
+
+@Value("${error.mstEmployerEtfbContribution.not_exist}")
+private String mstEmployerEtfbContributionNotExist;
+
+
+@Value("${error.mstEmployerIndustryType.not_exist}")
+private String mstEmployerIndustryTypeNotExist;
+
+
+@Value("${error.mstEmployerInterimReferenceTable.not_exist}")
+private String mstEmployerInterimReferenceTableNotExist;
+
+
+@Value("${error.mstEmployerMemberAccountBulkResult.not_exist}")
+private String mstEmployerMemberAccountBulkResultNotExist;
+
+
+@Value("${error.mstEmployerMemberAccountStatus.not_exist}")
+private String mstEmployerMemberAccountStatusNotExist;
+
+
+@Value("${error.mstEmployerMemberGroup.not_exist}")
+private String mstEmployerMemberGroupNotExist;
+
+
+@Value("${error.mstEmployerNatureBusiness.not_exist}")
+private String mstEmployerNatureBusinessNotExist;
+
+
+@Value("${error.mstEmployerOrganizationType.not_exist}")
+private String mstEmployerOrganizationTypeNotExist;
+
+
+@Value("${error.mstEmployerPayorderAmendmentSource.not_exist}")
+private String mstEmployerPayorderAmendmentSourceNotExist;
+
+
+@Value("${error.mstEmployerPayorderAmendmentStatus.not_exist}")
+private String mstEmployerPayorderAmendmentStatusNotExist;
+
+
+@Value("${error.mstEmployerPayorderInstalmentSource.not_exist}")
+private String mstEmployerPayorderInstalmentSourceNotExist;
+
+
+@Value("${error.mstEmployerPayorderInstalmentStatus.not_exist}")
+private String mstEmployerPayorderInstalmentStatusNotExist;
+
+
+@Value("${error.mstEmployerPayorderStatus.not_exist}")
+private String mstEmployerPayorderStatusNotExist;
+
+
+@Value("${error.mstEmployerReturnPaymentCharge.not_exist}")
+private String mstEmployerReturnPaymentChargeNotExist;
+
+
+@Value("${error.mstEmployerRole.not_exist}")
+private String mstEmployerRoleNotExist;
+
+
+@Value("${error.mstEmployerRolePermission.not_exist}")
+private String mstEmployerRolePermissionNotExist;
+
+
+@Value("${error.mstEmployerScheduleVisitStatus.not_exist}")
+private String mstEmployerScheduleVisitStatusNotExist;
+
+
+@Value("${error.mstEmployerScheduleVisitType.not_exist}")
+private String mstEmployerScheduleVisitTypeNotExist;
+
+
+@Value("${error.mstEmployerSelfEmploymentPaymentStatus.not_exist}")
+private String mstEmployerSelfEmploymentPaymentStatusNotExist;
+
+
+@Value("${error.mstEmployerStatus.not_exist}")
+private String mstEmployerStatusNotExist;
+
+
+@Value("${error.mstEmployerSurchargeNoticeAmendmentSource.not_exist}")
+private String mstEmployerSurchargeNoticeAmendmentSourceNotExist;
+
+
+@Value("${error.mstEmployerSurchargeNoticeAmendmentStatus.not_exist}")
+private String mstEmployerSurchargeNoticeAmendmentStatusNotExist;
+
+
+@Value("${error.mstEmployerSurchargeNoticeInstalmentSource.not_exist}")
+private String mstEmployerSurchargeNoticeInstalmentSourceNotExist;
+
+
+@Value("${error.mstEmployerSurchargeNoticeInstalmentStatus.not_exist}")
+private String mstEmployerSurchargeNoticeInstalmentStatusNotExist;
+
+
+@Value("${error.mstEmployerSurchargeNoticeStatus.not_exist}")
+private String mstEmployerSurchargeNoticeStatusNotExist;
+
+
+@Value("${error.mstEmployerSurchargePercentage.not_exist}")
+private String mstEmployerSurchargePercentageNotExist;
+
+
+@Value("${error.mstEmployerSurchargeStatus.not_exist}")
+private String mstEmployerSurchargeStatusNotExist;
+
+
+@Value("${error.mstEmployerSurchargeWithdrawReason.not_exist}")
+private String mstEmployerSurchargeWithdrawReasonNotExist;
+
+
+@Value("${error.mstEmployerSurchargeWithdrawSubReason.not_exist}")
+private String mstEmployerSurchargeWithdrawSubReasonNotExist;
+
+
+@Value("${error.mstEmployerType.not_exist}")
+private String mstEmployerTypeNotExist;
+
+
+@Value("${error.mstEmployerVerificationRequestSourceType.not_exist}")
+private String mstEmployerVerificationRequestSourceTypeNotExist;
+
+
+@Value("${error.mstEnforcementCallindirectiveStatus.not_exist}")
+private String mstEnforcementCallindirectiveStatusNotExist;
+
+
+@Value("${error.mstEnforcementDefaulterStatus.not_exist}")
+private String mstEnforcementDefaulterStatusNotExist;
+
+
+@Value("${error.mstEnforcementEmployerInspectionType.not_exist}")
+private String mstEnforcementEmployerInspectionTypeNotExist;
+
+
+@Value("${error.mstEnforcementEmployerPerformance.not_exist}")
+private String mstEnforcementEmployerPerformanceNotExist;
+
+
+@Value("${error.mstEnforcementEmployerSource.not_exist}")
+private String mstEnforcementEmployerSourceNotExist;
+
+
+@Value("${error.mstEnforcementEmployerStatus.not_exist}")
+private String mstEnforcementEmployerStatusNotExist;
+
+
+@Value("${error.mstEnforcementInspectionReportStatus.not_exist}")
+private String mstEnforcementInspectionReportStatusNotExist;
+
+
+@Value("${error.mstEnforcementInspectionResolutionType.not_exist}")
+private String mstEnforcementInspectionResolutionTypeNotExist;
+
+
+@Value("${error.mstEnforcementLegalCheckList.not_exist}")
+private String mstEnforcementLegalCheckListNotExist;
+
+
+@Value("${error.mstEnforcementLegalCheckListItem.not_exist}")
+private String mstEnforcementLegalCheckListItemNotExist;
+
+
+@Value("${error.mstEnforcementScheduleStatus.not_exist}")
+private String mstEnforcementScheduleStatusNotExist;
+
+
+@Value("${error.mstEtfbZone.not_exist}")
+private String mstEtfbZoneNotExist;
+
+
+@Value("${error.mstEtfbZoneDistrict.not_exist}")
+private String mstEtfbZoneDistrictNotExist;
+
+
+@Value("${error.mstExchangeRate.not_exist}")
+private String mstExchangeRateNotExist;
+
+
+@Value("${error.mstGramaNiladhariDivision.not_exist}")
+private String mstGramaNiladhariDivisionNotExist;
+
+
+@Value("${error.mstIdentity.not_exist}")
+private String mstIdentityNotExist;
+
+
+@Value("${error.mstIdentityNicType.not_exist}")
+private String mstIdentityNicTypeNotExist;
+
+
+@Value("${error.mstIncompleteMemberMasterDataCheckList.not_exist}")
+private String mstIncompleteMemberMasterDataCheckListNotExist;
+
+
+@Value("${error.mstIncompleteMemberMasterDataResolution.not_exist}")
+private String mstIncompleteMemberMasterDataResolutionNotExist;
+
+
+@Value("${error.mstIncompleteMemberMasterDataSource.not_exist}")
+private String mstIncompleteMemberMasterDataSourceNotExist;
+
+
+@Value("${error.mstIncompleteMemberMasterDataStatus.not_exist}")
+private String mstIncompleteMemberMasterDataStatusNotExist;
+
+
+@Value("${error.mstIntCalcAmicAmsStatus.not_exist}")
+private String mstIntCalcAmicAmsStatusNotExist;
+
+
+@Value("${error.mstIntCalcAmicStatus.not_exist}")
+private String mstIntCalcAmicStatusNotExist;
+
+
+@Value("${error.mstIntCalcFmicStatus.not_exist}")
+private String mstIntCalcFmicStatusNotExist;
+
+
+@Value("${error.mstIntCalcRmicStatus.not_exist}")
+private String mstIntCalcRmicStatusNotExist;
+
+
+@Value("${error.mstIntCalcSource.not_exist}")
+private String mstIntCalcSourceNotExist;
+
+
+@Value("${error.mstInterestPercentage.not_exist}")
+private String mstInterestPercentageNotExist;
+
+
+@Value("${error.mstLanguage.not_exist}")
+private String mstLanguageNotExist;
+
+
+@Value("${error.mstLegalCaseAction.not_exist}")
+private String mstLegalCaseActionNotExist;
+
+
+@Value("${error.mstLegalCaseCategory.not_exist}")
+private String mstLegalCaseCategoryNotExist;
+
+
+@Value("${error.mstLegalCaseDocumentSystemUpdateType.not_exist}")
+private String mstLegalCaseDocumentSystemUpdateTypeNotExist;
+
+
+@Value("${error.mstLegalCaseEventType.not_exist}")
+private String mstLegalCaseEventTypeNotExist;
+
+
+@Value("${error.mstLegalCaseOverpaymentRefundRequestStatus.not_exist}")
+private String mstLegalCaseOverpaymentRefundRequestStatusNotExist;
+
+
+@Value("${error.mstLegalCasePaymentInfoType.not_exist}")
+private String mstLegalCasePaymentInfoTypeNotExist;
+
+
+@Value("${error.mstLegalCasePlaintiffRespondentType.not_exist}")
+private String mstLegalCasePlaintiffRespondentTypeNotExist;
+
+
+@Value("${error.mstLegalCaseSourceType.not_exist}")
+private String mstLegalCaseSourceTypeNotExist;
+
+
+@Value("${error.mstLegalCaseStage.not_exist}")
+private String mstLegalCaseStageNotExist;
+
+
+@Value("${error.mstLegalCaseStatus.not_exist}")
+private String mstLegalCaseStatusNotExist;
+
+
+@Value("${error.mstLegalCaseSubAction.not_exist}")
+private String mstLegalCaseSubActionNotExist;
+
+
+@Value("${error.mstLegalCaseSubStage.not_exist}")
+private String mstLegalCaseSubStageNotExist;
+
+
+@Value("${error.mstLegalDocumentCourt.not_exist}")
+private String mstLegalDocumentCourtNotExist;
+
+
+@Value("${error.mstLegalEtfbOrganization.not_exist}")
+private String mstLegalEtfbOrganizationNotExist;
+
+
+@Value("${error.mstLegalSystemDocumentStatus.not_exist}")
+private String mstLegalSystemDocumentStatusNotExist;
+
+
+@Value("${error.mstLocalGovernmentAuthority.not_exist}")
+private String mstLocalGovernmentAuthorityNotExist;
+
+
+@Value("${error.mstLocalGovernmentAuthorityType.not_exist}")
+private String mstLocalGovernmentAuthorityTypeNotExist;
+
+
+@Value("${error.mstMemberAccountAllocationStatus.not_exist}")
+private String mstMemberAccountAllocationStatusNotExist;
+
+
+@Value("${error.mstMemberAccountStatus.not_exist}")
+private String mstMemberAccountStatusNotExist;
+
+
+@Value("${error.mstMemberAccountType.not_exist}")
+private String mstMemberAccountTypeNotExist;
+
+
+@Value("${error.mstMemberCreatedSource.not_exist}")
+private String mstMemberCreatedSourceNotExist;
+
+
+@Value("${error.mstMemberEmploymentRequestSource.not_exist}")
+private String mstMemberEmploymentRequestSourceNotExist;
+
+
+@Value("${error.mstMemberEmploymentRequestStatus.not_exist}")
+private String mstMemberEmploymentRequestStatusNotExist;
+
+
+@Value("${error.mstMemberNewEmploymentResolution.not_exist}")
+private String mstMemberNewEmploymentResolutionNotExist;
+
+
+@Value("${error.mstMemberPersonVerificationRequestSource.not_exist}")
+private String mstMemberPersonVerificationRequestSourceNotExist;
+
+
+@Value("${error.mstMemberPersonVerificationRequestType.not_exist}")
+private String mstMemberPersonVerificationRequestTypeNotExist;
+
+
+@Value("${error.mstMessageCode.not_exist}")
+private String mstMessageCodeNotExist;
+
+
+@Value("${error.mstMessageContactType.not_exist}")
+private String mstMessageContactTypeNotExist;
+
+
+@Value("${error.mstMetaRole.not_exist}")
+private String mstMetaRoleNotExist;
+
+
+@Value("${error.mstMetaRolePermission.not_exist}")
+private String mstMetaRolePermissionNotExist;
+
+
+@Value("${error.mstModule.not_exist}")
+private String mstModuleNotExist;
+
+
+@Value("${error.mstOrganizationCategory.not_exist}")
+private String mstOrganizationCategoryNotExist;
+
+
+@Value("${error.mstOrganizationDesignation.not_exist}")
+private String mstOrganizationDesignationNotExist;
+
+
+@Value("${error.mstOrganizationMetaRole.not_exist}")
+private String mstOrganizationMetaRoleNotExist;
+
+
+@Value("${error.mstOrganizationRole.not_exist}")
+private String mstOrganizationRoleNotExist;
+
+
+@Value("${error.mstOrganizationStatus.not_exist}")
+private String mstOrganizationStatusNotExist;
+
+
+@Value("${error.mstOtherAccountType.not_exist}")
+private String mstOtherAccountTypeNotExist;
+
+
+@Value("${error.mstOtpCode.not_exist}")
+private String mstOtpCodeNotExist;
+
+
+@Value("${error.mstPaymentCollectionAgentStatus.not_exist}")
+private String mstPaymentCollectionAgentStatusNotExist;
+
+
+@Value("${error.mstPaymentReferenceNoType.not_exist}")
+private String mstPaymentReferenceNoTypeNotExist;
+
+
+@Value("${error.mstPaymentStatus.not_exist}")
+private String mstPaymentStatusNotExist;
+
+
+@Value("${error.mstPaymentType.not_exist}")
+private String mstPaymentTypeNotExist;
+
+
+@Value("${error.mstPaymentTypeCollectionSource.not_exist}")
+private String mstPaymentTypeCollectionSourceNotExist;
+
+
+@Value("${error.mstPermission.not_exist}")
+private String mstPermissionNotExist;
+
+
+@Value("${error.mstPersonGeneralReferenceTable.not_exist}")
+private String mstPersonGeneralReferenceTableNotExist;
+
+
+@Value("${error.mstPersonReferenceTable.not_exist}")
+private String mstPersonReferenceTableNotExist;
+
+
+@Value("${error.mstPersonStatus.not_exist}")
+private String mstPersonStatusNotExist;
+
+
+@Value("${error.mstPoliceStation.not_exist}")
+private String mstPoliceStationNotExist;
+
+
+@Value("${error.mstPostOffice.not_exist}")
+private String mstPostOfficeNotExist;
+
+
+@Value("${error.mstPriority.not_exist}")
+private String mstPriorityNotExist;
+
+
+@Value("${error.mstProvince.not_exist}")
+private String mstProvinceNotExist;
+
+
+@Value("${error.mstReason.not_exist}")
+private String mstReasonNotExist;
+
+
+@Value("${error.mstRelationship.not_exist}")
+private String mstRelationshipNotExist;
+
+
+@Value("${error.mstRole.not_exist}")
+private String mstRoleNotExist;
+
+
+@Value("${error.mstRoleBpmRole.not_exist}")
+private String mstRoleBpmRoleNotExist;
+
+
+@Value("${error.mstRolePermission.not_exist}")
+private String mstRolePermissionNotExist;
+
+
+@Value("${error.mstSbu.not_exist}")
+private String mstSbuNotExist;
+
+
+@Value("${error.mstSelfEmploymentAgentMemberStatus.not_exist}")
+private String mstSelfEmploymentAgentMemberStatusNotExist;
+
+
+@Value("${error.mstSelfEmploymentAgentStatus.not_exist}")
+private String mstSelfEmploymentAgentStatusNotExist;
+
+
+@Value("${error.mstSelfEmploymentCategory.not_exist}")
+private String mstSelfEmploymentCategoryNotExist;
+
+
+@Value("${error.mstSelfEmploymentCategoryNature.not_exist}")
+private String mstSelfEmploymentCategoryNatureNotExist;
+
+
+@Value("${error.mstSelfEmploymentPreRegistraionStatus.not_exist}")
+private String mstSelfEmploymentPreRegistraionStatusNotExist;
+
+
+@Value("${error.mstSelfEmploymentRegistrationSource.not_exist}")
+private String mstSelfEmploymentRegistrationSourceNotExist;
+
+
+@Value("${error.mstSelfEmploymentStatus.not_exist}")
+private String mstSelfEmploymentStatusNotExist;
+
+
+@Value("${error.mstServiceCounterInquiryType.not_exist}")
+private String mstServiceCounterInquiryTypeNotExist;
+
+
+@Value("${error.mstServiceCounterRequirementType.not_exist}")
+private String mstServiceCounterRequirementTypeNotExist;
+
+
+@Value("${error.mstServiceCounterResolutionAction.not_exist}")
+private String mstServiceCounterResolutionActionNotExist;
+
+
+@Value("${error.mstServiceCounterResolutionType.not_exist}")
+private String mstServiceCounterResolutionTypeNotExist;
+
+
+@Value("${error.mstServiceCounterStatus.not_exist}")
+private String mstServiceCounterStatusNotExist;
+
+
+@Value("${error.mstServiceRequestCollectionAmendmentRequestResolution.not_exist}")
+private String mstServiceRequestCollectionAmendmentRequestResolutionNotExist;
+
+
+@Value("${error.mstServiceRequestCollectionAmendmentResolution.not_exist}")
+private String mstServiceRequestCollectionAmendmentResolutionNotExist;
+
+
+@Value("${error.mstServiceRequestCollectionErrorResolution.not_exist}")
+private String mstServiceRequestCollectionErrorResolutionNotExist;
+
+
+@Value("${error.mstServiceRequestEmployerUpdateResolution.not_exist}")
+private String mstServiceRequestEmployerUpdateResolutionNotExist;
+
+
+@Value("${error.mstServiceRequestEnforcementResolution.not_exist}")
+private String mstServiceRequestEnforcementResolutionNotExist;
+
+
+@Value("${error.mstServiceRequestFraudulentInvestigationResolution.not_exist}")
+private String mstServiceRequestFraudulentInvestigationResolutionNotExist;
+
+
+@Value("${error.mstServiceRequestSource.not_exist}")
+private String mstServiceRequestSourceNotExist;
+
+
+@Value("${error.mstServiceRequestStatus.not_exist}")
+private String mstServiceRequestStatusNotExist;
+
+
+@Value("${error.mstServiceRequestType.not_exist}")
+private String mstServiceRequestTypeNotExist;
+
+
+@Value("${error.mstServiceRequestUpdateEmploymentResolution.not_exist}")
+private String mstServiceRequestUpdateEmploymentResolutionNotExist;
+
+
+@Value("${error.mstServiceRequestUpdatePersonMasterDataResolution.not_exist}")
+private String mstServiceRequestUpdatePersonMasterDataResolutionNotExist;
+
+
+@Value("${error.mstServiceRequestUpdateSelfEmploymentAgentResolution.not_exist}")
+private String mstServiceRequestUpdateSelfEmploymentAgentResolutionNotExist;
+
+
+@Value("${error.mstServiceRequestUpdateSelfEmploymentResolution.not_exist}")
+private String mstServiceRequestUpdateSelfEmploymentResolutionNotExist;
+
+
+@Value("${error.mstSuspenseAccountType.not_exist}")
+private String mstSuspenseAccountTypeNotExist;
+
+
+@Value("${error.mstTitle.not_exist}")
+private String mstTitleNotExist;
+
+
+@Value("${error.mstTxnAction.not_exist}")
+private String mstTxnActionNotExist;
+
+
+@Value("${error.mstUserCategory.not_exist}")
+private String mstUserCategoryNotExist;
+
+
+@Value("${error.mstVerificationMethod.not_exist}")
+private String mstVerificationMethodNotExist;
+
+
+@Value("${error.mstVerificationRequestStatus.not_exist}")
+private String mstVerificationRequestStatusNotExist;
+
+
+@Value("${error.mstVerificationStatus.not_exist}")
+private String mstVerificationStatusNotExist;
+
+

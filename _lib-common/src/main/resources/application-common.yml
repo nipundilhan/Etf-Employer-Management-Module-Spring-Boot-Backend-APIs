@@ -1,0 +1,9 @@
+server:
+  port: 0
+  
+---
+spring:
+  profiles: dev
+eureka:
+  client:
+    enabled: false

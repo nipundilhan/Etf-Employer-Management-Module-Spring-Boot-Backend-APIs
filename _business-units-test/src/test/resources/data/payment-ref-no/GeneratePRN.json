@@ -1,0 +1,40 @@
+{
+  "employerId": 10,
+  "employerPaymentDetails": {
+    "createdSourceId": 8,
+    "generatedAt": "2020-01-27 01:37:44",
+    "statusCode": "OPN",
+    "currencyCode": "LKR",
+    "statusAt": "2020-01-27 01:37:44"
+  },
+  "employerPaymentRemittanceDetails": [
+    {
+      "year": 0,
+      "month": 0,
+      "salaryETF": 50000,
+      "contribution": 1500,
+      "etfbContributionPercentage": "3",
+      "memberNo": 83333,
+      "titleCode": "TEST_TITLE",
+      "fullName": "TEST_FULL_NAME",
+      "firstName": "TEST_NAME",
+      "nicTypeCode": "NIC",
+      "contributionDueDate": 1548939600000,
+      "canceled": false,
+      "canceledBy": 0,
+      "collectionAmendmentCreated": false
+    }
+  ],
+  "paymentDueDetails": [
+    {
+      "employerDueId": 9,
+      "dueAmount": 0
+    }
+  ],
+  "paymentReferenceNoDetails": {
+    "paymentRefNoTypeCode": "EMP",
+    "prefixRefNo": "PAY_",
+    "amount": 5000
+  },
+  "userId": 2
+}

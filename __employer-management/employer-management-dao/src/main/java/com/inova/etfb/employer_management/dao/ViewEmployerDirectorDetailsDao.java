@@ -1,0 +1,45 @@
+package com.inova.etfb.employer_management.dao;
+
+import java.util.List;
+
+import com.inova.etfb.employer_management.request.ViewEmployerAvailableBalanceSearchRequest;
+import com.inova.etfb.employer_management.request.ViewEmployerDirectorDetailsRequest;
+import com.inova.etfb.employer_management.wrapper.EmployerAddressRespDto;
+import com.inova.etfb.employer_management.wrapper.EmployerContactRespDto;
+import com.inova.etfb.employer_management.wrapper.EmployerDirectorCurrentHistoryDateRespDto;
+import com.inova.etfb.employer_management.wrapper.EmployerDirectorInformationRespDto;
+import com.inova.etfb.employer_management.wrapper.EmployerDirectorMemberDetailsRespDto;
+import com.inova.etfb.employer_management.wrapper.EmployerDirectorPersonalDetailsRespDto;
+import com.inova.etfb.employer_management.wrapper.EmployerDirectorSignatureRespDto;
+import com.inova.etfb.employer_management.wrapper.EmployerDirectorUpdateEndDateRespDto;
+import com.inova.etfb.employer_management.wrapper.EmployerDirectorUpdateHistoryDetailsRespDto;
+import com.inova.etfb.employer_management.wrapper.EmployerDirectorUpdateStartDateRespDto;
+import com.inova.etfb.employer_management.wrapper.ViewEmployerDirectorDetailsRespDto;
+
+public interface ViewEmployerDirectorDetailsDao {
+	
+	List<ViewEmployerDirectorDetailsRespDto> getDirectorDetails(Long id);
+	
+	List<EmployerAddressRespDto> getDirectorAddressDetails(ViewEmployerDirectorDetailsRequest request);
+	
+	List<EmployerContactRespDto> getDirectorContactssDetails(ViewEmployerDirectorDetailsRequest request);
+	
+	EmployerDirectorPersonalDetailsRespDto getDirectorPersonalDetails(ViewEmployerDirectorDetailsRequest request);
+
+	EmployerDirectorInformationRespDto getDirectorInformationDetails(ViewEmployerDirectorDetailsRequest request);
+
+	EmployerDirectorUpdateHistoryDetailsRespDto getEmployerDirecotorUpdateHistoryDetails(ViewEmployerDirectorDetailsRequest request) ;
+	
+	EmployerDirectorUpdateStartDateRespDto getDirectorUpdateStartDate(ViewEmployerDirectorDetailsRequest request);
+	
+	EmployerDirectorUpdateEndDateRespDto getDirectorUpdateEndDate(ViewEmployerDirectorDetailsRequest request);
+	
+	EmployerDirectorCurrentHistoryDateRespDto getDirectorDetailsHistory(ViewEmployerDirectorDetailsRequest request);
+	
+	List<EmployerDirectorSignatureRespDto> getEmployerDirectorSignaturesDetails(ViewEmployerDirectorDetailsRequest request);
+	
+	EmployerDirectorMemberDetailsRespDto checkDirectorIsMember(ViewEmployerDirectorDetailsRequest request);
+
+	String getDirectorType(Long id);
+
+}
